@@ -4,7 +4,7 @@
 <!--        GitHub : https://github.com/ismailtasdelen/ -->
 <!--       Twitter : https://twitter.com/ismailtsdln -->
 <!--        Medium : https://medium.com/@ismailtasdelen -->
-
+```js
 "<script>alert('XSS')</script>"
 "<img src='javascript:alert(1)'>"
 "<svg onload='alert(1)'>"
