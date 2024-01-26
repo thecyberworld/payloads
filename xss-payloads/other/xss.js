@@ -1,1 +1,1 @@
-alert(location.hostname);
+<script>alert(location.hostname);</script>
